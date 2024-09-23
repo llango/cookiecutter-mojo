@@ -1,5 +1,5 @@
 [project]
-authors = ["{{cookiecutter.fulls_name}}<{{cookiecutter.email}}>"]
+authors = ["{{cookiecutter.full_name}}<{{cookiecutter.email}}>"]
 channels = ["https://repo.prefix.dev/mojo-force", "conda-forge", "https://conda.modular.com/max"]
 description = "{{cookiecutter.project_short_description}}"
 name = "{{cookiecutter.project_slug}}"
