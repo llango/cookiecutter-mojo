@@ -1,0 +1,16 @@
+{
+    "project_name": "project name",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "project_short_description": "project short description",
+    "full_name": "your name",
+    "email": "your email(you@example.com)",
+    "release_date": "{% now 'local' %}",
+    "version": "0.1.0",
+    "github_username": "llango",
+    "_extensions": [
+        "jinja2_time.TimeExtension"
+    ],
+    "_copy_without_render": [
+        "*ci.yaml"
+    ]
+}

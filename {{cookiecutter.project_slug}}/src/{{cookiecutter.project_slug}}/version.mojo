@@ -1,0 +1,1 @@
+alias __version__ = "{{cookiecutter.version}}"
