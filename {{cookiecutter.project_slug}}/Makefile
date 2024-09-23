@@ -11,3 +11,6 @@ upload:
 
 build:
 	rattler-build build -r src -c https://repo.prefix.dev/mojo-force -c https://conda.modular.com/max -c conda-forge --skip-existing=all
+
+doc:
+	mkdocs serve

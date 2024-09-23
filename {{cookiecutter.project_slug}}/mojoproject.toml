@@ -8,8 +8,8 @@ version = "{{cookiecutter.version}}"
 
 
 [tasks]
-test = "mojo test.mojo"
-build = "rattler-build build -r src -c https://repo.prefix.dev/mojo-force -c https://conda.modular.com/max -c conda-forge --skip-existing=all"
+test = "mojo run tests/test_main.mojo"
+build = "rattler-build build -r src -c https://conda.modular.com/max -c conda-forge --skip-existing=all"
 publish = { cmd = "bash scripts/publish.sh", env = { PREFIX_API_KEY = "$PREFIX_API_KEY" } }
 
 [dependencies]

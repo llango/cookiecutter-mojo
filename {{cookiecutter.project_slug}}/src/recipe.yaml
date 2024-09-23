@@ -10,7 +10,7 @@ package:
 source:
   - path: .
   - path: ../LICENSE
-  - path: ../test
+  - path: ../tests
 
 build:
   script:
@@ -34,7 +34,7 @@ tests:
       source:
         - {{cookiecutter.project_slug}}.mojopkg
         - mojoproject.toml
-        - test.mojo
+        - tests
 
 about:
   homepage: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}
